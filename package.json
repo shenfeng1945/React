@@ -2,7 +2,7 @@
   "name": "rr",
   "version": "0.1.0",
   "private": true,
-  "homepage":"http://shenfeng1945.github.io/react",
+  "homepage":"http://shenfeng1945.github.io/React",
   "dependencies": {
     "react": "^16.1.0",
     "react-dom": "^16.1.0",
