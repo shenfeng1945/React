@@ -1,18 +1,22 @@
 import React from 'react'
 import Hoc from './hoc'
 import RenderProps from './render-props'
-import Broken from './broken'
-import ErrorBoundary from './error-boundary'
+import NewContext from './newContext'
+// import Broken from './broken'
+// import ErrorBoundary from './error-boundary'
 const Content = props => {
    return (
        <div>
-         <div>
+         {/* <div>
            高阶组件: <Hoc />
          </div>
-         <ErrorBoundary></ErrorBoundary>
+         <ErrorBoundary render={(error,errorInfo)=><p>Error: {error.toString()}</p>}>
+           <Broken />
+         </ErrorBoundary>
          <div>
              RenderProps: <RenderProps />
-         </div>
+         </div> */}
+         <NewContext />
        </div>
    )
 }
