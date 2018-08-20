@@ -10,6 +10,9 @@ html,body{
     height: 100%;
     width:100%;
 }
-.container{
-    color:red
+.App{
+  h2{text-align: center;}
+  .container{
+      display: flex;
+  }
 }

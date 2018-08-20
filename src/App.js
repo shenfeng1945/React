@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
+import Nav from './components/nav'
+import Content from './components/content'
 import './App.scss';
 
 class App extends Component {
   render() {
     return (
-       <div className="comtainer">
+       <div className="App">
          <h2>React学习</h2> 
-         <nav>
-            <div>高阶组件</div>
-            <div>react-powerplug</div>
-         </nav>
+         <div className="container">
+           <Nav />
+           <Content />
+         </div>
        </div>
     );
   }
