@@ -1,7 +1,8 @@
 import React from 'react'
-import Hoc from './hoc'
-import RenderProps from './render-props'
+// import Hoc from './hoc'
+// import RenderProps from './render-props'
 import NewContext from './newContext'
+import Local from './newContext1'
 // import Broken from './broken'
 // import ErrorBoundary from './error-boundary'
 const Content = props => {
@@ -17,6 +18,7 @@ const Content = props => {
              RenderProps: <RenderProps />
          </div> */}
          <NewContext />
+         <Local />
        </div>
    )
 }
