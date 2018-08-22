@@ -54,9 +54,14 @@ const LocalContent = () => {
    )
 }
 export default class Local extends Component {
+    GoHome(){
+      this.props.history.push('/')
+    }
     render(){
         return (
             <ThemeProvider>
+               {this.props.match.params.id}
+              <button onClick={this.GoHome.bind(this)}>Go back home</button>
                <LocalSelect />
                <LocalFlag />
                <LocalContent />

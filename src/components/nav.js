@@ -1,11 +1,15 @@
-import React from 'react'
+import React,{Component} from 'react'
+import {Link} from 'react-router-dom'
 
-const Nav = props =>{
-    return (
+class Nav extends Component{
+    
+    render(){
+      return (
         <nav style={{width:'200px'}}>
-            <div>高阶组件</div>
-            <div>react-powerplug</div>
-         </nav>
-    )
+           <Link to="/">高阶组件</Link>
+           <Link to="/local/2">react-powerplug</Link>
+        </nav>
+       )
+    }
 }
 export default Nav
